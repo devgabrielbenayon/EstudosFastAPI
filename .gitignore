@@ -3,3 +3,20 @@
 __pycache__/
 *.pyc
 .venv/
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Cache de ferramentas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+
+# Banco de dados local (se usar SQLite)
+*.db
+*.sqlite
+*.sqlite3
